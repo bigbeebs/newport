@@ -1,0 +1,329 @@
+*{
+    
+}
+
+    
+
+header{
+    font-size: large;
+    padding-left: 50px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.nav{
+display: flex;
+justify-content: right;
+}
+
+.navbar{
+    position: absolute;
+    top: 15px;
+}
+
+nav a{
+text-decoration: none;
+padding: 10px  40px;
+font-weight: bold;
+font-size: 20px;
+color: black;
+}
+
+nav a:hover{
+text-decoration: underline;
+text-decoration-color: brown;
+text-decoration-style: double;
+}
+
+.container{
+    box-shadow: 2px 4px 2px 2px;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    box-shadow: white;
+    z-index: 99999;
+    background-color: white;
+    opacity: 1;
+    margin: 0;
+    width: 100%;
+    left: 0;
+}
+
+
+/*       Home
+------------------------------------------------------------*/
+.home{
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: double;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-2{
+    
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+.child-1{
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.span1{
+    color: brown;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-size: medium; 
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.social{   
+
+}
+
+img{
+    width: 200px;
+}
+
+.img-1{ 
+    position: absolute;
+    width: 350px;
+    height: 408.12px;
+    left: 750px;
+    
+}
+
+.img-2{
+    position: absolute;
+    width: 350.21px;
+    height: 408.12px;
+    left: 750px;
+    transform: rotate(7.15deg);
+}
+
+.img-3{
+    position: absolute;
+    width: 350.21px;
+    height: 408.12px;
+    left: 750px;
+    transform: rotate(3.39deg);
+}
+
+.img-4{
+    position: absolute;
+    width: 350.21px;
+    height: 408.12px;
+    left: 750px;
+    transform: rotate(-3.01deg);
+}
+
+.img-5{
+    position: absolute;
+    width: 350.22px;
+    height: 408.12px;
+    left: 750px;
+    background: #FFBB62;
+}
+
+
+/*       About
+------------------------------------------------------------*/
+.subtopic{
+    margin-left: 70px;
+    text-decoration: underline;
+    text-decoration-color: brown; 
+    padding-top: 100px;
+}
+
+h2{
+    width: auto;
+    text-align: center;
+    color: brown;
+    font-size: 35px;
+}
+
+.about-img{
+    width: 300px;
+    height: 400px;
+}
+
+.photo{
+    padding-left: 80px;
+    
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: larger;
+}
+
+
+
+/*       Skills
+------------------------------------------------------------*/
+.progress{
+    padding-left: 100px;
+}
+
+.imgphoto{
+    padding-right: 100px;
+    height: 250px;
+}
+
+.skill-img{
+    width: 500px;
+    height: 360px;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+h4{
+    font-size: 30px;
+}
+
+.Progress-box1{
+    box-shadow: 1px 1px 2px 1px;
+    max-width: 450px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+progress{
+    width: 440px;
+    background-color: blue;
+}
+
+progress[value]::-webkit-progress-value{
+    background-color: brown;
+}
+
+span{
+    
+    font-weight: bold;
+}
+
+.fa-brands{
+    color: brown;  
+}
+
+i{
+    width: 50px;
+}
+
+p{
+    color: brown;
+}
+
+
+/*       Work
+------------------------------------------------------------*/
+.contained{
+    padding-left: 50px;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.col-img{
+    
+}
+
+.my-img{
+    width: 300px;
+    margin-bottom: 35px;
+    border-radius: 10px 10px 0px 10px;
+    transition: 1s ;
+}
+
+.col-img :hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: rgb(2, 23, 44);
+    height: 300px;
+    display: grid;
+    justify-content: center;
+}
+
+h5{
+    color: white;
+    font-size: xx-large;
+}
+
+.social-1{
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/*       responsive
+------------------------------------------------------------*/
+@media screen and (min-width: 928px){
+    .contained{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 50px;
+        padding-top: 50px;
+        justify-content: space-around;
+    }
+
+    .wrapper-3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left:1px ;
+    }
+
+    .wrapper-2{
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        justify-content: space-around; 
+        padding-top: 9px;
+    }
+}
+
+
+@media screen and (max-width: 927px){
+    .progress{
+        padding-left: 1px;
+    }
+
+    .imgphoto {
+        padding-top: 30px;
+    }  
+    
+    .skill-img{
+        max-width: 500px;
+        width: 85%; 
+    }
+
+    .about-img{
+        max-width: 350px;
+        width: 85%;
+    }
+
+    .navbar{
+        display: none;
+    }
+    
+}
+
+   
+
+
